@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Route from "./config/routes/route";
 
 const App = () => {
   return (
-    <div className="h-screen w-screen flex justify-center items-center">
-      <span>Hello World</span>
-    </div>
+    <Fragment>
+      <Route />
+    </Fragment>
   );
 };
-
 export default App;
