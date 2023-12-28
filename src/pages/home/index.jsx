@@ -1,7 +1,7 @@
-import Template from "./template";
+import Template from './template'
 
 const HomePage = () => {
-  return <Template />;
-};
+	return <Template />
+}
 
-export default HomePage;
+export default HomePage
