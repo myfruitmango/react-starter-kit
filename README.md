@@ -19,11 +19,13 @@ or
 ```bash
 npm start
 ```
+
 for staging
 ```bash
 pm2 start app.dev.config.js
 ```
 
+for production
 ```bash production
 pm2 start app.prod.config.js
 ```
