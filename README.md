@@ -1,4 +1,4 @@
-# Your Project Awesome🚀
+# Your Project Awesome 🚀
 
 ## ✨ Starting
 using npm:
@@ -11,7 +11,7 @@ yarn install
 ```
 
 ## 🐢 Run
-For development in local
+> for development in local
 ```bash
 npm start
 ```
@@ -21,12 +21,12 @@ pm2 start app.local.config.js
 ```
 
 
-for staging
+> for staging
 ```bash
 pm2 start app.dev.config.js
 ```
 
-for production
+> for production
 ```bash production
 pm2 start app.prod.config.js
 ```
@@ -45,3 +45,5 @@ npm run build
 - 🗂️ [Redux.](https://redux.js.org/introduction/getting-started)
 - 🌍 [React Router DOM.](https://reactrouter.com/en/main)
 - 🎨 [Tailwind CSS.](https://tailwindcss.com/docs/installation)
+
+### Closing 🏁
