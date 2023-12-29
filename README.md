@@ -11,6 +11,7 @@ yarn install
 ```
 
 ## 🐢 Run
+### Local
 > for development in local
 ```bash
 npm start
@@ -20,12 +21,13 @@ or
 pm2 start app.local.config.js
 ```
 
-
+### Server Staging
 > for staging
 ```bash
 pm2 start app.dev.config.js
 ```
 
+### Server Production
 > for production
 ```bash production
 pm2 start app.prod.config.js
@@ -46,4 +48,4 @@ npm run build
 - 🌍 [React Router DOM.](https://reactrouter.com/en/main)
 - 🎨 [Tailwind CSS.](https://tailwindcss.com/docs/installation)
 
-### Closing 🏁
+# Closing 🏁
