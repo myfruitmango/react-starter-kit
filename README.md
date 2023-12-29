@@ -13,11 +13,19 @@ yarn install
 ## 🐢 Run
 For development in local
 ```bash
-pm2 start pm2.dev.config.js
+pm2 start app.local.config.js
 ```
 or
 ```bash
 npm start
+```
+for staging
+```bash
+pm2 start app.dev.config.js
+```
+
+```bash production
+pm2 start app.prod.config.js
 ```
 
 ## 🍔 Build
