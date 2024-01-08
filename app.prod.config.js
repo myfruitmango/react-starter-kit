@@ -5,8 +5,8 @@ module.exports = {
 	apps: [
 		{
 			name: `${pkg.name}:${port}`,
-			script: 'npm',
-			args: 'start',
+			script: 'npx',
+			args: `serve -s -l ${port} build`,
 			interpreter: 'none',
 			watch: false,
 			merge_logs: true,
