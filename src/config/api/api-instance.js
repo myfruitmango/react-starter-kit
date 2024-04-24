@@ -3,7 +3,7 @@ import { locStorage } from '../utils/session-local-storage'
 
 const apiInstance = axios.create({
 	baseURL: process.env.REACT_APP_API_SERVER_URL,
-	timeout: 6000
+	timeout: 8000
 })
 
 apiInstance.interceptors.request.use(
