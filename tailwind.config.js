@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{js,jsx,ts,tsx}'],
-	theme: {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
     screens: {
       sm: "640px",
       md: "768px",
@@ -9,14 +9,14 @@ module.exports = {
       xl: "1280px",
       "2xl": "1536px",
     },
-		extend: {
-			colors: {
-				primary: '',
-				secondary: '',
-        background: '',
-        black: '',
-        white: '',
-				success: {
+    extend: {
+      colors: {
+        // primary: '',
+        // secondary: '',
+        // background: '',
+        // black: '',
+        // white: '',
+        success: {
           70: "#317159",
           60: "#429777",
           50: "#52BD94",
@@ -25,7 +25,7 @@ module.exports = {
           20: "#EEF8F4",
           10: "#F5FBF8",
         },
-				warning: {
+        warning: {
           70: "#66460D",
           60: "#996A13",
           50: "#FFB020",
@@ -34,7 +34,7 @@ module.exports = {
           20: "#FFEFD2",
           10: "#FFFAF1",
         },
-				error: {
+        error: {
           70: "#A74436",
           60: "#BF2600",
           50: "#FF5630",
@@ -43,7 +43,7 @@ module.exports = {
           20: "#FFEBE6",
           10: "#FFF5F3",
         },
-				information: {
+        information: {
           70: "#1F3D99",
           60: "#2952CC",
           50: "#3366FF",
@@ -52,8 +52,8 @@ module.exports = {
           20: "#EBF0FF",
           10: "#F3F6FF",
         }
-			}
-		}
-	},
-	plugins: []
+      }
+    }
+  },
+  plugins: []
 }
