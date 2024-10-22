@@ -5,11 +5,7 @@ import React from 'react'
 import Frame from 'components/frame/home'
 
 const HomePage = () => {
-	return (
-		<section className="w-screen h-screen flex justify-center items-center bg-slate-100">
-			<Frame />
-		</section>
-	)
+	return <Frame />
 }
 
 export default HomePage
