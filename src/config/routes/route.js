@@ -1,8 +1,12 @@
-import React, { lazy } from 'react'
+// ** React Imports
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-const HomePage = lazy(() => import('../../pages/home'))
-const Page404 = lazy(() => import('../../pages/404'))
+// ** Pages Imports
+import HomePage from 'pages/home'
+import Page404 from 'pages/404'
+
+// ** Sub-Route Imports
 
 const RoutePage = () => {
 	return (
